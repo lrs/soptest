@@ -1,0 +1,27 @@
+{
+    "workbench.colorCustomizations": {
+        "[Shades of Purple]": {
+            "terminal.ansiBrightBlack": "#4f4b5e"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Shades of Purple]": {
+            "textMateRules": [
+                {
+                    "name": "Typescript React",
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Typescript React",
+                    "scope": "keyword.operator.assignment",
+                    "settings": {
+                        "foreground": "#9effff"
+                    }
+                }
+            ]
+        }
+    },
+}

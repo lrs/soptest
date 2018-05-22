@@ -1,0 +1,54 @@
+{
+    "name": "soptest",
+    "version": "1.0.0",
+    "description": "test settings for Shades of Purple VS Code theme.",
+    "author": "LRS",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lrs/soptest.git"
+    },
+    "keywords": [
+        "Typescript",
+        "React",
+        "Gulp"
+    ],
+    "scripts": {
+        "build": "gulp",
+        "test": "jest"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.(ts|tsx)?$": "ts-jest"
+        },
+        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js?|jsx?|ts?|tsx?)$",
+        "moduleFileExtensions": [
+            "js",
+            "jsx",
+            "ts",
+            "tsx"
+        ]
+    },
+    "devDependencies": {
+        "@types/enzyme": "^3.1.10",
+        "@types/enzyme-adapter-react-16": "^1.0.2",
+        "@types/jest": "^22.2.3",
+        "@types/react": "^16.3.14",
+        "@types/react-dom": "^16.0.5",
+        "browserify": "^16.2.2",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "gulp": "^3.9.1",
+        "gulp-uglify": "^3.0.0",
+        "jest": "^22.4.4",
+        "ts-jest": "^22.4.6",
+        "tsify": "^4.0.0",
+        "tslint-eslint-rules": "^5.3.1",
+        "typescript": "^2.8.3",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "dependencies": {
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2"
+    }
+}
