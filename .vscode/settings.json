@@ -8,17 +8,37 @@
         "[Shades of Purple]": {
             "textMateRules": [
                 {
-                    "name": "Typescript React",
-                    "scope": "entity.other.attribute-name",
+                    "name": "Typescript React Attributes",
+                    "scope": "entity.other.attribute-name.tsx",
                     "settings": {
                         "fontStyle": "italic"
                     }
                 },
                 {
-                    "name": "Typescript React",
-                    "scope": "keyword.operator.assignment",
+                    "name": "Typescript React Assignment Operator",
+                    "scope": "keyword.operator.assignment.tsx",
                     "settings": {
                         "foreground": "#9effff"
+                    }
+                },
+                {
+                    "name": "Typescript React Classnames and Modules",
+                    "scope": [
+                        "entity.name.type.class.tsx",
+                        "entity.name.type.module.tsx",
+                        "entity.other.inherited-class.tsx",
+                        "variable.other.readwrite.alias.tsx",
+                        "support.class.component.tsx"
+                    ],
+                    "settings": {
+                        "foreground": "#9effff"
+                    }
+                },
+                {
+                    "name": "Typescript React Children",
+                    "scope": "meta.jsx.children.tsx",
+                    "settings": {
+                        "foreground": "#ffffff"
                     }
                 }
             ]
