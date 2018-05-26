@@ -28,6 +28,7 @@
                         "entity.name.type.module.tsx",
                         "entity.other.inherited-class.tsx",
                         "variable.other.readwrite.alias.tsx",
+                        "variable.other.object.tsx",
                         "support.class.component.tsx"
                     ],
                     "settings": {
