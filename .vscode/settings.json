@@ -29,8 +29,10 @@
                         "entity.other.inherited-class.tsx",
                         "variable.other.readwrite.alias.tsx",
                         "variable.other.object.tsx",
+                        "variable.other.object.property.tsx",
+                        "variable.other.property.tsx",
                         "support.class.component.tsx",
-                        "entity.name.type.tsx"
+                        "entity.name.type.tsx",
                     ],
                     "settings": {
                         "foreground": "#9effff"
