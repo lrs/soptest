@@ -1,12 +1,10 @@
 import * as React from 'react';
 
-export class Message extends React.Component {
-    props;
-
-    constructor(props) {
-        super(props);
-    }
-
+export class Message extends React.Component<{
+    titleClass: string,
+    msg:        string,
+    children:   React.ReactNode
+}> {
     render() {
         return (
             <section className="container">
