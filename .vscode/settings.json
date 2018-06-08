@@ -15,6 +15,18 @@
                     }
                 },
                 {
+                    "name": "jsDoc cpunctuation",
+                    "scope": [
+                        "punctuation.definition.block.tag.jsdoc",
+                        "storage.type.class.jsdoc",
+                        "entity.name.type.instance.jsdoc"
+                    ],
+                    "settings": {
+                        "foreground": "#b362ffff",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "name": "Typescript React Assignment Operator",
                     "scope": "keyword.operator.assignment.tsx",
                     "settings": {
