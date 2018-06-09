@@ -12,8 +12,8 @@ Included `build` and `test` tasks.
 
 ## Issues
 
-- Poor contrast for Gulp output timestamps in terminal.
-- React Component attributes styled differently to HTML attributes.
+- ~~Poor contrast for Gulp output timestamps in terminal.~~
+- ~~React Component attributes styled differently to HTML attributes.~~
     - This is quite possibly a personal preference!
 
 ## Usage
