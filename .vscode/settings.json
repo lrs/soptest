@@ -8,21 +8,28 @@
         "[Shades of Purple]": {
             "textMateRules": [
                 {
-                    "name": "Typescript React Attributes",
-                    "scope": "entity.other.attribute-name.tsx",
-                    "settings": {
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "name": "jsDoc cpunctuation",
+                    "name": "jsDoc entity",
                     "scope": [
-                        "punctuation.definition.block.tag.jsdoc",
-                        "storage.type.class.jsdoc",
                         "entity.name.type.instance.jsdoc"
                     ],
                     "settings": {
-                        "foreground": "#b362ffff",
+                        "foreground": "#b362ff"
+                    }
+                },
+                {
+                    "name": "jsDoc definition",
+                    "scope": [
+                        "punctuation.definition.block.tag.jsdoc",
+                        "storage.type.class.jsdoc"
+                    ],
+                    "settings": {
+                        "foreground": "#fb94ff"
+                    }
+                },
+                {
+                    "name": "Typescript React Attributes",
+                    "scope": "entity.other.attribute-name.tsx",
+                    "settings": {
                         "fontStyle": "italic"
                     }
                 },
